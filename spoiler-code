@@ -1,0 +1,10 @@
+<div style="margin:20px; margin-top:5px">
+<div class="smallfont" style="margin-bottom:2px; width:852; height:26"><right><font color="red"><b>&nbsp;</b></font></right>  
+<input type="button" value="Spoiler about {option}" style="font-size:10px;margin:0px;padding:0px;" onClick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';   this.innerText = ''; this.value = 'Hide'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = '{option}'; }">
+</div>
+<div>
+<div style="display: none;">
+{param}
+</div>
+</div>
+</div>
